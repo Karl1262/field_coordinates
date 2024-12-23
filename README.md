@@ -22,7 +22,7 @@ git clone [repo URL]
 cd ..
 catkin_make
 source devel/setup.bash
-
+```
 ## Kasutamine
 Süsteemi käivitamiseks:
 ```bash
