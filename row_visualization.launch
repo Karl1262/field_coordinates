@@ -1,0 +1,7 @@
+<launch>
+    <!-- Käivitame row_coordinates node'i -->
+    <node name="row_coordinates" pkg="field_coordinates" type="row_coordinates.py" output="screen"/>
+    
+    <!-- Käivitame RViz -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find field_coordinates)/config/row_config.rviz"/>
+</launch>
