@@ -18,7 +18,7 @@ Süsteem võimaldab:
 ### Paigaldamine
 ```bash
 cd ~/catkin_ws/src
-git clone [repo URL]
+git clone https://github.com/Karl1262/field_coordinates.git
 cd ..
 catkin_make
 source devel/setup.bash
